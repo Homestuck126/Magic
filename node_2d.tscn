@@ -1,9 +1,14 @@
-[gd_scene load_steps=2 format=3 uid="uid://cd3lajlw715yk"]
+[gd_scene load_steps=3 format=3 uid="uid://cd3lajlw715yk"]
 
 [ext_resource type="Texture2D" uid="uid://ba8y65ikqmdob" path="res://GrandCross.jpg" id="1_r661n"]
+[ext_resource type="Texture2D" uid="uid://6n46etps731l" path="res://JDfECBdJ_400x400.jpg" id="2_pxx05"]
 
 [node name="Node2D" type="Node2D"]
 
 [node name="GrandCross" type="Sprite2D" parent="."]
-position = Vector2(462, 252)
+position = Vector2(789, 534)
 texture = ExtResource("1_r661n")
+
+[node name="JDfEcBdJ400x400" type="Sprite2D" parent="."]
+position = Vector2(562, 934)
+texture = ExtResource("2_pxx05")
