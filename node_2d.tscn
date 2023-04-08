@@ -1,3 +1,9 @@
-[gd_scene format=3 uid="uid://cd3lajlw715yk"]
+[gd_scene load_steps=2 format=3 uid="uid://cd3lajlw715yk"]
+
+[ext_resource type="Texture2D" uid="uid://ba8y65ikqmdob" path="res://GrandCross.jpg" id="1_r661n"]
 
 [node name="Node2D" type="Node2D"]
+
+[node name="GrandCross" type="Sprite2D" parent="."]
+position = Vector2(462, 252)
+texture = ExtResource("1_r661n")
